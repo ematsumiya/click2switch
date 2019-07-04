@@ -3,7 +3,7 @@
 When opening a URL, this extension will identify if the URL is already opened in
 some tab and switch to it if so (exact match only for now).
 
-# Instal
+# Install
 
 This is unpublished yet. To use it:
 
