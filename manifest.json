@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "click2switch",
+  "version": "1.0",
+
+  "description": "Bind a modifier key to switch to an existing tab",
+
+  "content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+		"js": []
+	}
+  ],
+
+  "background": {
+	"scripts": ["c2s.js"]
+  },
+
+  "permissions": [
+	"tabs",
+	"activeTab",
+	"webRequest",
+	"webNavigation"
+  ]
+}
