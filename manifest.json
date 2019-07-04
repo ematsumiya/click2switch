@@ -13,7 +13,7 @@
   ],
 
   "background": {
-	"scripts": ["c2s.js"]
+	"scripts": ["background.js"]
   },
 
   "permissions": [
