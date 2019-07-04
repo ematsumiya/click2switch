@@ -10,3 +10,4 @@ does not kick in)
   identifies that it's a duplicate, then will close this new opened tab. Ideally,
   this should not happen; we should intercepty the clicked link and act accordingly.
   However, I have to confirm this is techinically possible.
+- Publish it
